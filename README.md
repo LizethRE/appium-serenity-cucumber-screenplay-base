@@ -7,7 +7,7 @@ Proyecto base para la automatización de pruebas de aplicaciones móviles utiliz
 * [Estructura del Proyecto](#estructura-del-proyecto)
 * [Configuración](#configuración)
 * [Ejecución de Pruebas](#ejecución-de-pruebas)
-* [Contribución](#contribución)
+* [Reportería](#reportería)
 * [Licencia](#licencia)
 
 ## Prerrequisitos
@@ -46,20 +46,18 @@ src
 ## Configuración
 Configura en el archivo `serenity.conf` ubicado en la ruta `src/test/resources/` las capabilities correspondientes al dispositivo o emulador a utilizar y la aplicación a probar.
 
-```json lines
+```properties
 appium {
-    ...
     platformName = "Android"
     platformVersion = "13.0"
     deviceName = "Redmi 10C"
     udid = "b6f2c6d"
     appActivity = ".MainActivity"
     appPackage = "com.example.material3_show_case"
-    ...
 }
 ```
 
-## Ejecución de las pruebas
+## Ejecución de pruebas
 ### Ejecutar todo el proyecto
 ```shell
 ./gradlew clean test
@@ -70,7 +68,7 @@ appium {
 ./gradle clean test --tests "com.base.certification.runners.nombreRunner"
 ```
 
-## Reporteria
+## Reportería
 El reporte se genera en la ruta `target/site/serenity/`, archivo principal `index.html`
 
 ## Licencia
