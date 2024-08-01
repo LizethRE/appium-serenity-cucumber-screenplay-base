@@ -10,6 +10,7 @@ public class HomePage {
     public static final Target DIALOGS_DEMO_VIEW = Target.the("card Dialogs Demo").located(AppiumBy.accessibilityId("Dialogs Demo"));
     public static final Target INPUTS_SCREEN_VIEW = Target.the("card Inputs Screen").located(AppiumBy.accessibilityId("Inputs Screen "));
     public static final Target CAROUSEL_VIEW = Target.the("card Carousel").located(AppiumBy.accessibilityId("PageView Carousel"));
+
     public static Target VERSION_BUTTON(int version) {
         return Target.the("botón v" + version).located(AppiumBy.accessibilityId("v" + version));
     }

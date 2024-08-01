@@ -20,8 +20,10 @@ Proyecto base para la automatización de pruebas de aplicaciones móviles utiliz
 ## Instalación
 Clona el repositorio:
 ```shell
-   git clone https://github.com/LizethRE/appium-serenity-screenplay-base (EDITANDO)
-   cd appium-serenity-screenplay-base (EDITANDO)
+git clone https://github.com/LizethRE/appium-serenity-cucumber-screenplay-base.git
+```
+```shell
+cd appium-serenity-cucumber-screenplay-base
 ```
 
 ## Estructura del Proyecto
@@ -57,7 +59,7 @@ appium {
 }
 ```
 
-## Ejecución de pruebas
+## Ejecución de Pruebas
 ### Ejecutar todo el proyecto
 ```shell
 ./gradlew clean test
