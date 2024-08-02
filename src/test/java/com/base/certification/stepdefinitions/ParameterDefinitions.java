@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
 
-public class Hooks {
+public class ParameterDefinitions {
 
     public static Actor actor;
 
